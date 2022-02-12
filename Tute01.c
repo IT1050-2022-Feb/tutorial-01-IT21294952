@@ -11,10 +11,13 @@ int main()
    
   printf("Enter marks of subject 01: ");
   scanf("%d", &mark1);
+
+  printf("Enter marks of subject 02: ");
+  scanf("%d", &mark2);
   
-  avg=mark1 + mark2 /2;
+  avg= (mark1 + mark2) /2;
   
-  printf("%f", avg);
+  printf("%.2f", avg);
    
   return 0;
 }
